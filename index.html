@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080608">
+<title>31: Noche de sombras — Feliz Halloween</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="film"></div><div class="vignette"></div><div class="noise"></div>
+<div class="loader" id="loader"><div class="loader-moon"></div><p>LA NOCHE ESTÁ DESPERTANDO</p><div class="load-track"><i id="loadbar"></i></div><span id="loadpct">00%</span></div>
+<header class="topbar">
+ <a class="brand" href="#inicio"><span>✦</span> 31 <small> / NOCHE DE SOMBRAS</small></a>
+ <nav><a href="#historia">HISTORIA</a><a href="#galeria">GALERÍA</a><a href="#susto">EL UMBRAL</a><a href="#carta">EL MENSAJE</a></nav>
+</header>
+<main>
+<!-- 01 / INTRO -->
+<section class="scene hero" id="inicio" data-scene="01">
+ <div class="hero-photo"></div><div class="hero-redwash"></div><div class="embers" aria-hidden="true"></div>
+ <div class="hero-content">
+  <p class="eyebrow"><span></span> 31 DE OCTUBRE · UNA NOCHE DIFERENTE <span></span></p>
+  <h1>Feliz<br><em>Halloween</em></h1>
+  <p class="hero-sub">La noche ha caído. La niebla ha cubierto el camino.<br>Y hay historias que solo despiertan después de medianoche.</p>
+  <a class="enter" href="#historia">ENTRAR EN LA HISTORIA <b>↘</b></a>
+ </div>
+ <div class="hero-stamp">EDICIÓN<br><strong>31·10</strong><br>ARCHIVO Nº 013</div>
+ <div class="hero-bottom"><span>UNA EXPERIENCIA ENTRE SOMBRAS</span><span>DESLIZA PARA DESCUBRIR <b>↓</b></span></div>
+</section>
+
+<!-- 02 / STORY -->
+<section class="scene story" id="historia" data-scene="02">
+ <div class="story-visual photo-frame"><div class="story-photo"></div><div class="frame-corner tl"></div><div class="frame-corner br"></div><span class="photo-caption">FIG. 01 — EL GUARDIÁN DEL SILENCIO</span></div>
+ <div class="story-copy">
+  <p class="eyebrow">UNA HISTORIA ENTRE SOMBRAS</p>
+  <h2>La historia<br><em>comienza...</em></h2>
+  <p class="type-copy">Dicen que, cuando la luna se vuelve roja, los recuerdos encuentran la manera de regresar.</p>
+  <p class="type-copy">Entre tantas historias de terror, existen momentos que ni siquiera la oscuridad puede borrar. Algunas personas dejan una huella, incluso cuando el tiempo sigue avanzando.</p>
+  <blockquote>“Hay recuerdos que no necesitan hacer ruido para seguir brillando.”</blockquote>
+  <a class="line-link" href="#galeria">CONTINUAR EL RECORRIDO <b>⟶</b></a>
+ </div>
+ <span class="scene-number">02 <i>/</i> 08</span>
+</section>
+
+<!-- 03 / GALLERY -->
+<section class="scene gallery" id="galeria" data-scene="03">
+ <header class="section-head"><p class="eyebrow">03 — ARCHIVO DE LA NOCHE</p><h2>Recuerdos de <em>ultratumba</em></h2><p>Hay lugares que es mejor no visitar después de anochecer.</p></header>
+ <div class="gallery-wall">
+  <figure class="polaroid p1"><div class="polaroid-img mansion-img"></div><figcaption><small>01 / LA MANSIÓN</small><b>La casa al final del camino</b></figcaption></figure>
+  <figure class="polaroid p2"><div class="polaroid-img skull-img"></div><figcaption><small>02 / LOS TESTIGOS</small><b>Ellos nunca se fueron</b></figcaption></figure>
+  <figure class="polaroid p3"><div class="polaroid-img moon-img"></div><figcaption><small>03 / LA LUNA ROJA</small><b>Una señal en el cielo</b></figcaption></figure>
+  <figure class="polaroid p4"><div class="polaroid-img grave-img"></div><figcaption><small>04 / EL CEMENTERIO</small><b>No camines entre las tumbas</b></figcaption></figure>
+ </div>
+ <p class="gallery-foot">NO TODAS LAS HISTORIAS TERMINAN CUANDO AMANECE.</p>
+ <span class="scene-number">03 <i>/</i> 08</span>
+</section>
+
+<!-- 04 / INTERLUDE -->
+<section class="scene interlude" data-scene="04">
+ <div class="interlude-bg"></div><div class="interlude-overlay"></div>
+ <div class="interlude-copy"><p class="eyebrow">04 — ALGO SE MUEVE EN LA NIEBLA</p><h2>¿Escuchaste<br><em>eso?</em></h2><p>Un crujido. Un susurro. Pasos detrás de ti.<br>Tal vez solo sea el viento...</p><a class="enter" href="#susto">NO MIRES ATRÁS <b>↘</b></a></div>
+ <div class="sound-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+ <span class="scene-number">04 <i>/</i> 08</span>
+</section>
+
+<!-- 05 / JUMPSCARE -->
+<section class="scene threshold" id="susto" data-scene="05">
+ <div class="threshold-photo"></div><div class="threshold-shade"></div>
+ <div class="threshold-copy"><p class="eyebrow">05 — EL UMBRAL</p><h2>Hay algo<br><em>ahí detrás.</em></h2><p>Has llegado demasiado lejos. La puerta está entreabierta.<br>¿Te atreves a mirar?</p>
+ <button class="blood-button" id="openScare">ABRIR LA PUERTA <b>✦</b></button><small>AVISO: ESTA ESCENA CONTIENE UN SUSTO REPENTINO.</small></div>
+ <span class="scene-number">05 <i>/</i> 08</span>
+</section>
+
+<!-- 06 / LETTER -->
+<section class="scene letter-scene" id="carta" data-scene="06">
+ <div class="letter-backdrop"></div><div class="letter-inner">
+  <header class="section-head"><p class="eyebrow">06 — UN MENSAJE QUE SOBREVIVIÓ AL TIEMPO</p><h2>Una carta desde<br><em>el otro lado</em></h2></header>
+  <div class="letter-layout">
+   <div class="envelope-wrap"><div class="envelope-photo"></div><p class="photo-caption">UN MENSAJE QUE POR FIN ENCONTRÓ SU CAMINO</p></div>
+   <article class="letter-paper open" id="letterPaper"><div class="wax">✦</div><p class="letter-kicker">PARA TI, EN ESTA NOCHE</p><h3>Hay cosas que<br>merecen quedarse.</h3>
+    <p>Quizás el tiempo pase y las cosas cambien. Quizás cada quien siga su camino. Pero hay personas que dejan recuerdos bonitos, de esos que uno guarda sin hacer ruido.</p>
+    <p>Solo quería desearte una noche especial, llena de sonrisas, magia y momentos que valgan la pena. No hace falta responder. Este pequeño detalle es simplemente un deseo sincero.</p>
+    <p class="sign">Con cariño, alguien que te desea lo mejor. <b>♡</b></p></article>
+  </div>
+ </div><span class="scene-number">06 <i>/</i> 08</span>
+</section>
+
+<!-- 08 / FINAL -->
+<section class="scene ending" id="final" data-scene="08">
+ <div class="ending-photo"></div><div class="ending-shade"></div>
+ <div class="ending-copy"><p class="eyebrow">07 — FIN DEL RECORRIDO</p><h2>Feliz<br><em>Halloween</em></h2><div class="divider-ornament">✦ ━━━━━━━━━ ✦</div><p>Que esta noche esté llena de magia,<br>de pequeñas sorpresas y de momentos<br>que te hagan sonreír.</p><h3>Te deseo lo mejor. <b>♡</b></h3><a href="#inicio" class="enter">VOLVER AL PRINCIPIO <b>↑</b></a></div>
+ <span class="scene-number">07 <i>/</i> 08</span>
+</section>
+
+<!-- 09 / CREDITS -->
+<section class="scene credits" data-scene="09">
+ <div class="credits-image"></div><div class="credits-shade"></div>
+ <div class="credits-copy"><p class="eyebrow">ARCHIVO CERRADO · 31 DE OCTUBRE</p><h2>La noche<br><em>continúa...</em></h2><p>Algunas historias se cuentan.<br>Otras se sienten.</p><div class="credit-rule"></div><span>UNA EXPERIENCIA HECHA CON DEDICACIÓN</span><a href="#inicio">REGRESAR AL INICIO ↑</a></div>
+ <span class="scene-number">08 <i>/</i> 08</span>
+</section>
+</main>
+<footer><span>✦ 31 / NOCHE DE SOMBRAS</span><span>FELIZ HALLOWEEN</span><span>HECHO PARA SER RECORDADO</span></footer>
+
+<div class="jumpscare" id="jumpscare" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Susto de Halloween">
+ <div class="scare-prelude" aria-hidden="true"><span></span><p>NO DEBISTE ABRIRLA</p></div>
+ <div class="scare-impact" aria-hidden="true"></div>
+ <img class="scare-creature" src="assets/creature-jumpscare.png" alt="Una aparición fantasmal se abalanza desde la oscuridad" draggable="false">
+ <div class="scare-vignette" aria-hidden="true"></div>
+ <div class="scare-ui"><p class="scare-caption">31 / NOCHE DE SOMBRAS</p><button id="closeScare" aria-label="Cerrar el susto">VOLVER A LA HISTORIA <span>×</span></button></div>
+</div>
+<script src="js/app.js"></script>
+</body></html>
